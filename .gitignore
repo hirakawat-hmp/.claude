@@ -29,6 +29,11 @@ plugins/cache/
 plugins/data/
 plugins/blocklist.json.*
 plugins/install-counts-cache.json
+plugins/installed_plugins.json
+plugins/known_marketplaces.json
+
+# Generated analysis reports
+reports/
 
 # Marketplace plugin sources are large vendored copies.
 # Track plugin manifests/settings instead of full contents by default.
