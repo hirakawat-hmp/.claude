@@ -7,7 +7,8 @@ Bash でコマンド実行する際は以下のモダンツールを優先して
 | ファイル一覧 | eza | ls |
 | ファイル検索 | fd | find |
 | テキスト検索 | ripgrep (rg) | grep |
-| HTTP リクエスト | xh | curl, wget |
+| Web ページ取得 | WebFetch ツール | curl, wget |
+| HTTP API リクエスト | xh | curl, wget |
 | JSON 処理 | jq | - |
 | ファイルサイズ確認 | dust | du |
 | ディスク使用量 | duf | df |
@@ -23,11 +24,24 @@ Bash でコマンド実行する際は以下のモダンツールを優先して
 | VCS | jj (Jujutsu) - Git互換 |
 | タスクランナー | task (go-task) |
 | Python パッケージ管理 | uv |
+| Node.js パッケージ管理 | pnpm |
 | Python リンター | ruff |
+| Python 型チェッカー | ty |
 | GCP CLI | gcloud |
 | IaC | terraform |
 | 組版 | typst |
 | スライド生成 | marp-cli |
+
+## Python スクリプト実行
+
+`python3` は使わず、必ず `uv run` 経由で実行すること:
+
+```bash
+uv run script.py
+uv run --with requests script.py  # 追加パッケージが必要な場合
+```
+
+`uv run ruff` / `uv run ty` はプロジェクト venv に入っていればそちらを優先し、なければグローバル（mise）にフォールバックする。チーム開発では `uv add --dev ruff ty` でプロジェクト依存に追加すること。
 
 ## 注意事項
 
