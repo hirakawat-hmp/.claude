@@ -14,7 +14,6 @@ Bash でコマンド実行する際は以下のモダンツールを優先して
 | diff 表示 | delta | diff |
 | ベンチマーク | hyperfine | time |
 | ファイル閲覧 | bat | cat |
-| プロセス管理 | bottom (btm) | top, htop |
 | コード行数 | tokei | wc -l, cloc |
 
 ## 開発ツール

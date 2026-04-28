@@ -1,5 +1,9 @@
 # Development Workflow
 
+## 一時ファイル
+
+セッション中に作成する中間ファイルは `.claude/tmp/` に配置する。
+
 ## Commit Message Format
 
 ```

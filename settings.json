@@ -1,11 +1,32 @@
 {
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
+  },
   "permissions": {
+    "deny": [
+      "Bash(sudo *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)"
+    ],
     "allow": [
-      "mcp__serena",
+      "mcp__plugin_serena_serena",
       "mcp__sequential-thinking",
-      "mcp__pencil"
+      "Bash(eza *)",
+      "Bash(bat *)",
+      "Bash(fd *)",
+      "Bash(rg *)",
+      "Bash(dust *)",
+      "Bash(duf *)",
+      "Bash(tokei *)",
+      "Bash(jj *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git status *)",
+      "Bash(task *)",
+      "Bash(jq *)"
     ]
   },
+  "model": "opusplan",
   "enableAllProjectMcpServers": true,
   "hooks": {
     "PreToolUse": [
@@ -22,7 +43,7 @@
   },
   "enabledPlugins": {
     "context7-plugin@context7-marketplace": true,
-    "pyright-lsp@claude-plugins-official": true
+    "serena@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -86,13 +107,9 @@
       }
     }
   },
-  "model": "opusplan",
-  "effortLevel": "medium",
-  "env": {
-    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
-  },
   "language": "Japanese",
   "alwaysThinkingEnabled": false,
-  "voiceEnabled": true,
-  "skipAutoPermissionPrompt": true
+  "effortLevel": "medium",
+  "skipAutoPermissionPrompt": true,
+  "voiceEnabled": true
 }
