@@ -1,0 +1,40 @@
+# Runtime/state (local only)
+backups/
+cache/
+debug/
+ide/
+file-history/
+paste-cache/
+projects/
+session-env/
+sessions/
+shell-snapshots/
+statsig/
+tasks/
+telemetry/
+todos/
+plans/
+
+# History and caches
+history.jsonl
+stats-cache.json
+symlink-backup.json
+settings.json.bak
+
+# Local machine specific settings
+settings.local.json
+
+# Plugin runtime/cache artifacts
+plugins/cache/
+plugins/data/
+plugins/blocklist.json.*
+plugins/install-counts-cache.json
+
+# Marketplace plugin sources are large vendored copies.
+# Track plugin manifests/settings instead of full contents by default.
+plugins/marketplaces/
+
+# Serena: keep sharable config only
+.serena/cache/
+.serena/memories/
+.serena/project.local.yml

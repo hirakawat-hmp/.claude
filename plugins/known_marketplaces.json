@@ -1,0 +1,106 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-04-28T04:20:50.774Z"
+  },
+  "claude-code-plugins": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-code"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/claude-code-plugins",
+    "lastUpdated": "2026-04-28T04:20:50.625Z"
+  },
+  "claude-code-workflows": {
+    "source": {
+      "source": "github",
+      "repo": "wshobson/agents"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/claude-code-workflows",
+    "lastUpdated": "2026-02-05T04:12:20.410Z"
+  },
+  "repomix": {
+    "source": {
+      "source": "github",
+      "repo": "yamadashy/repomix"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/repomix",
+    "lastUpdated": "2026-02-05T13:40:44.234Z"
+  },
+  "awesome-claude-skills": {
+    "source": {
+      "source": "github",
+      "repo": "ComposioHQ/awesome-claude-skills"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/awesome-claude-skills",
+    "lastUpdated": "2026-02-05T13:40:50.432Z"
+  },
+  "chrome-devtools-plugins": {
+    "source": {
+      "source": "github",
+      "repo": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/chrome-devtools-plugins",
+    "lastUpdated": "2026-02-05T13:40:55.639Z"
+  },
+  "thedotmack": {
+    "source": {
+      "source": "github",
+      "repo": "thedotmack/claude-mem"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/thedotmack",
+    "lastUpdated": "2026-02-05T13:41:02.662Z"
+  },
+  "context-engineering-marketplace": {
+    "source": {
+      "source": "github",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/context-engineering-marketplace",
+    "lastUpdated": "2026-02-24T16:42:29.086Z"
+  },
+  "planning-with-files": {
+    "source": {
+      "source": "github",
+      "repo": "OthmanAdi/planning-with-files"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/planning-with-files",
+    "lastUpdated": "2026-02-05T13:41:14.190Z"
+  },
+  "claude-scientific-skills": {
+    "source": {
+      "source": "github",
+      "repo": "K-Dense-AI/claude-scientific-skills"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/claude-scientific-skills",
+    "lastUpdated": "2026-02-05T13:41:27.992Z"
+  },
+  "everything-claude-code": {
+    "source": {
+      "source": "github",
+      "repo": "affaan-m/everything-claude-code"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/everything-claude-code",
+    "lastUpdated": "2026-02-05T13:41:38.336Z"
+  },
+  "life-marketplace": {
+    "source": {
+      "source": "directory",
+      "path": "/Users/hdymacuser/life"
+    },
+    "installLocation": "/Users/hdymacuser/life",
+    "lastUpdated": "2026-02-12T02:21:28.097Z"
+  },
+  "context7-marketplace": {
+    "source": {
+      "source": "github",
+      "repo": "upstash/context7"
+    },
+    "installLocation": "/Users/hdymacuser/.claude/plugins/marketplaces/context7-marketplace",
+    "lastUpdated": "2026-04-13T06:58:33.535Z"
+  }
+}

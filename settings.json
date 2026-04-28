@@ -1,0 +1,81 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__serena",
+      "mcp__sequential-thinking",
+      "mcp__pencil"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "hooks": {},
+  "enabledPlugins": {
+    "context7-plugin@context7-marketplace": true,
+    "pyright-lsp@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    },
+    "claude-code-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-code"
+      }
+    },
+    "claude-code-workflows": {
+      "source": {
+        "source": "github",
+        "repo": "wshobson/agents"
+      }
+    },
+    "everything-claude-code": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code"
+      }
+    },
+    "repomix": {
+      "source": {
+        "source": "github",
+        "repo": "yamadashy/repomix"
+      }
+    },
+    "awesome-claude-skills": {
+      "source": {
+        "source": "github",
+        "repo": "ComposioHQ/awesome-claude-skills"
+      }
+    },
+    "chrome-devtools-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "ChromeDevTools/chrome-devtools-mcp"
+      }
+    },
+    "context-engineering-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering"
+      }
+    },
+    "claude-scientific-skills": {
+      "source": {
+        "source": "github",
+        "repo": "K-Dense-AI/claude-scientific-skills"
+      }
+    },
+    "context7-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "upstash/context7"
+      }
+    }
+  },
+  "language": "Japanese",
+  "alwaysThinkingEnabled": false,
+  "voiceEnabled": true,
+  "skipAutoPermissionPrompt": true
+}
