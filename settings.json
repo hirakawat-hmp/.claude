@@ -7,7 +7,19 @@
     ]
   },
   "enableAllProjectMcpServers": true,
-  "hooks": {},
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rtk hook claude"
+          }
+        ]
+      }
+    ]
+  },
   "enabledPlugins": {
     "context7-plugin@context7-marketplace": true,
     "pyright-lsp@claude-plugins-official": true
