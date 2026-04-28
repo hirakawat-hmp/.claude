@@ -86,6 +86,11 @@
       }
     }
   },
+  "model": "opusplan",
+  "effortLevel": "medium",
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
+  },
   "language": "Japanese",
   "alwaysThinkingEnabled": false,
   "voiceEnabled": true,
