@@ -3,11 +3,6 @@
     "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
   },
   "permissions": {
-    "deny": [
-      "Bash(sudo *)",
-      "Bash(git push --force *)",
-      "Bash(git push -f *)"
-    ],
     "allow": [
       "mcp__plugin_serena_serena",
       "mcp__sequential-thinking",
@@ -31,14 +26,27 @@
       "Bash(gh pr diff *)",
       "Bash(gh issue list *)",
       "Bash(gh issue view *)",
+      "Bash(xh *)",
+      "Bash(source *)",
+      "Read(~/.claude/skills/kie-ai/.env)",
       "mcp__pencil"
+    ],
+    "deny": [
+      "Bash(sudo *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)"
     ]
   },
-  "model": "opusplan",
   "enableAllProjectMcpServers": true,
   "enabledPlugins": {
     "context7-plugin@context7-marketplace": true,
-    "serena@claude-plugins-official": true
+    "serena@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "plugin-dev@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "drawio@365-skills": true,
+    "rust-analyzer-lsp@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -100,11 +108,24 @@
         "source": "github",
         "repo": "upstash/context7"
       }
+    },
+    "365-skills": {
+      "source": {
+        "source": "github",
+        "repo": "Agents365-ai/365-skills"
+      }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
     }
   },
   "language": "Japanese",
   "alwaysThinkingEnabled": false,
   "effortLevel": "medium",
+  "remoteControlAtStartup": true,
   "skipAutoPermissionPrompt": true,
   "voiceEnabled": true
 }
