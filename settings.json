@@ -124,6 +124,18 @@
   },
   "language": "Japanese",
   "alwaysThinkingEnabled": false,
+  "hooks": {
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  },
   "effortLevel": "medium",
   "remoteControlAtStartup": true,
   "skipAutoPermissionPrompt": true,
