@@ -16,17 +16,20 @@ Types: feat, fix, refactor, docs, test, chore, perf, ci
 
 ## VCS
 
-- Use jj (Jujutsu) when available, fall back to git otherwise
-- `jj log` / `jj diff` / `jj describe` を優先
+- VCS は git を使用する
+- 状態確認は `git status` / `git log --oneline` / `git diff` を基本とする
+- コミット・プッシュはユーザーが明示的に指示したときのみ行う
+- デフォルトブランチ上にいる場合は、先にブランチを切ってから作業する
 
 ## Pull Request Workflow
 
 When creating PRs:
 1. Analyze full change history (not just latest change)
-2. Use `jj diff -r @` or `git diff [base-branch]...HEAD` to see all changes
+2. Use `git diff [base-branch]...HEAD` to see all changes
 3. Draft comprehensive PR summary
 4. Include test plan with TODOs
-5. Push with `-u` flag if new branch (git) or `jj git push` (jj)
+5. Push with `-u` flag if new branch（`git push -u origin <branch>`）
+6. PR 作成は `gh pr create` を使う
 
 ## Test-Driven Development
 

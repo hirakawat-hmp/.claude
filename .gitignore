@@ -1,6 +1,12 @@
 # Runtime/state (local only)
 backups/
 cache/
+daemon/
+daemon.lock
+daemon.log
+daemon.status.json
+jobs/
+.last-update-result.json
 debug/
 ide/
 file-history/
